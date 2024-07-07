@@ -1,0 +1,18 @@
+namespace Nhapxuat
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Xin chao, Nhap ten cua ban ?");
+            string name = Console.ReadLine();
+            Console.WriteLine("Xin chao " + name);
+            Console.WriteLine("Nhap nam sinh cua ban: ");
+            int namsinh;
+            namsinh = Convert .ToInt32(Console.ReadLine());
+            Console.WriteLine("Nam sinh cua ban la: " + (2024- namsinh));
+            //Console.WriteLine(" tuoi hien tai cua toi la: " 2024 - namsinh);
+            Console.ReadLine();
+        }
+    }
+}
